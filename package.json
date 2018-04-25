@@ -18,7 +18,9 @@
     "pg": "^7.4.1"
   },
   "main": "app.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  },
   "author": "rickv",
   "license": "ISC",
   "description": ""

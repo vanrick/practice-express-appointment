@@ -1,8 +1,6 @@
-var knex = require('../db/knex');
-var pg = require('pg');
 var express = require('express');
 var router = express.Router();
-console.log(knex);
+// console.log(knex);
 
 
 /* GET home page. */

@@ -8,7 +8,7 @@ module.exports = {
 
         client: 'pg',
 
-        connection: 'postgres://localhost/DATABASE_NAME'
+        connection: 'postgres://localhost/practice_appointment_development'
 
     },
 

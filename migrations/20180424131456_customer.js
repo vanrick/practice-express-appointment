@@ -4,7 +4,7 @@ exports.up = function(knex, Promise) {
         table.increments('id').primary();
         table.string('first_name', 255);
         table.string('last_name', 255);
-        table.integer('phone_number');
+        table.bigInteger('phone_number');
         table.string('email', 60);
         table.string('google_token', 255);
         table.timestamps();
